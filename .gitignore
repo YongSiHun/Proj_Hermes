@@ -1,0 +1,6 @@
+*.hprof
+android/app/build/
+android/.gradle/
+node_modules/
+*.qqw
+android/app/*.json
