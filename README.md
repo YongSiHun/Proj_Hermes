@@ -9,5 +9,5 @@ real-time interpretation system for the deaf
 >실시간 통역 및 생활 소리 알림 시스템
 
 **2. 프로젝트 컨셉**
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* 
+>![image](https://user-images.githubusercontent.com/33280934/100368247-b3f5b380-3046-11eb-8d53-426c5b2ffe16.png)
 
