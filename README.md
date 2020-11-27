@@ -11,4 +11,5 @@ real-time interpretation system for the deaf
 **2. 프로젝트 컨셉**
 >![image](https://user-images.githubusercontent.com/33280934/100368247-b3f5b380-3046-11eb-8d53-426c5b2ffe16.png)
 
-**3. 
+**3. 함수 흐름도**
+>![image](https://user-images.githubusercontent.com/33280934/100411634-a4618380-30b5-11eb-85e8-c1ca4039a328.png)
