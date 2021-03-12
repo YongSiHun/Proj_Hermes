@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>795</width>
+    <height>415</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="exit_btn">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>310</y>
+     <width>101</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../icon/exit.png</normaloff>../icon/exit.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>120</width>
+     <height>120</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="how_lbl">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>10</y>
+     <width>391</width>
+     <height>391</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../how_to_ble/1.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="prev_btn">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>150</y>
+     <width>101</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../icon/prev_arrow.png</normaloff>../icon/prev_arrow.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>120</width>
+     <height>120</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="next_btn">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>150</y>
+     <width>101</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../icon/next_arrow.png</normaloff>../icon/next_arrow.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>120</width>
+     <height>120</height>
+    </size>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

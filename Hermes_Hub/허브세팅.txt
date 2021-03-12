@@ -1,0 +1,143 @@
+1. 깃허브에서 다운로드
+git clone https://github.com/HermesProj-KNUT/Hermes_Hub
+mv Hermes_Hub/ Hub
+chmod 777 -R Hub/
+
+※ LCD 세팅중 오류 발생할 경우
+cd LCD-show/
+chmod +x LCD5-show
+sudo ./LCD5-show
+
+
+2. json파일 등록
+su
+sudo nano your.json
+json파일 코드 복붙
+nano ~/.bashrc
+맨하단에 export GOOGLE_APPLICATION_CREDENTIALS="/home/pi/Hub/input_your_json"
+source ~/.bashrc
+
+
+3. 파이썬 자동실행
+su 로그인 안한 상태에서 
+python3 -m pip install google-cloud-speech==1.3.2
+sudo nano /etc/xdg/lxsession/LXDE-pi/autostart
+@xscreensaver 바로위에 아래와 같이 작성
+lxterminal -e sudo bash /home/pi/Hub/shell/reboot_wifi.sh
+lxterminal -e python3 /home/pi/Hub/New_Translate.py
+
+
+4.  와이파이 끊김 방지
+sudo iw dev wlan0 set power_save off
+sudo wpa_supplicant -c/etc/wpa_supplicant/wpa_supplicant.conf -iwlan0 -d
+wpa_supplicant -c/etc/wpa_supplicant/wpa_supplicant.conf -iwlan0 -d
+
+
+5. 블루투스 세팅
+sudo sdptool add SP
+sudo nano /lib/systemd/system/bluetooth.service
+ExecStart=/usr/lib/bluetooth/bluetoothd -C 로 수정
+sudo systemctl daemon-reload       <설정 수정사항 재로딩>
+sudo systemctl restart bluetooth    <블루투스 서비스 재실행>
+sudo systemctl enable bluetooth   <재부팅시 서비스 자동 등록>
+sudo usermod -a -G bluetooth pi <사용자를 블루투스 그룹에 추가>
+sudo chgrp bluetooth /var/run/sdp 
+sudo nano /etc/systemd/system/var-run-sdp.path
+
+[Unit]
+Descrption=Monitor /var/run/sdp
+
+[Install]
+WantedBy=bluetooth.service
+
+[Path]
+PathExists=/var/run/sdp
+Unit=var-run-sdp.service
+
+
+sudo nano /etc/systemd/system/var-run-sdp.service
+
+[Unit]
+Description=Set permission of /var/run/sdp
+
+[Install]
+RequiredBy=var-run-sdp.path
+
+[Service]
+Type=simple
+ExecStart=/bin/chgrp bluetooth /var/run/sdp
+
+sudo systemctl daemon-reload
+sudo systemctl enable var-run-sdp.path
+sudo systemctl enable var-run-sdp.service
+sudo systemctl start var-run-sdp.path
+
+
+6. USB 마이크 기본 마이크 설정
+aplay -l
+arecord -l 
+=> 해당 장치의 card 번호와 device번호 확인
+sudo nano /usr/share/alsa/alsa.conf
+page down 4번 후 아래와 같이 수정
+defaults.ctl.card 1
+defaults.pcm.card 1
+수정후 
+sudo nano .asoundrc
+pcm.!default {
+  type asym
+  capture.pcm "mic"
+  playback.pcm "speaker"
+}
+
+pcm.mic {
+  type plug
+  slave {
+    pcm "hw:2,0"
+  }
+}
+
+pcm.speaker {
+  type plug
+  slave {
+    pcm "hw:1,0"
+  }
+}
+
+
+7. 바탕화면 아이콘 생성 
+cd /home/pi/Desktop
+sudo nano Power_off.desktop
+
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=Power_off
+Path=/home/pi/Hub
+Icon=/home/pi/Hub/icon/power_off.png
+Exec=sh /home/pi/Hub/desktop_sh/shut_down.sh
+Terminal=true
+
+
+sudo nano Proj_Hermes.desktop
+
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=Proj_Hermes
+Path=/home/pi/Hub
+Icon=/home/pi/Hub/icon/Hermes_logo.png
+Exec=sh /home/pi/Hub/desktop_sh/run_script.sh
+Terminal=true
+
+
+sudo nano Restart.desktop
+
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=Restart
+Path=/home/pi/Hub
+Icon=/home/pi/Hub/icon/restart.png
+Exec=sh /home/pi/Hub/desktop_sh/restart.sh
+Terminal=true
+

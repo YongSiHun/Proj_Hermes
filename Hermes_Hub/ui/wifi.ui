@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>795</width>
+    <height>210</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="exit_btn">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>150</y>
+     <width>61</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../icon/exit.png</normaloff>../icon/exit.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>70</width>
+     <height>70</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="scan_btn">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>150</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../icon/scan.png</normaloff>../icon/scan.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>60</width>
+     <height>60</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="wifi_list_widget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>771</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>12</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="autoScrollMargin">
+    <number>4</number>
+   </property>
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="viewMode">
+    <enum>QListView::ListMode</enum>
+   </property>
+   <property name="batchSize">
+    <number>100</number>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>140</y>
+     <width>81</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>비밀번호</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="connect_btn">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>150</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../icon/connect.png</normaloff>../icon/connect.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>60</width>
+     <height>60</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="pw_text">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>150</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>210 Cherryblossom</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Password</enum>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

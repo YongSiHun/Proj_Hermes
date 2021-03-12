@@ -1,0 +1,154 @@
+0. 라즈비안OS 설치 후 SSH 접속 허용 설정 후 재부팅 -> PUTTY로 접속
+
+1. 기초적인 설정
+     sudo raspi-config에서 network~ => hostname 변경(Hermes_Hub), Timezone Asia => Seoul로 설정,  업데이트
+
+2. 필요한 라이브러리 설치
+    sudo passwd root
+    su
+    apt-get update
+    apt-get dist-upgrade
+    apt install python-dev libsdl-image1.2-dev libsdl-mixer1.2-dev libsdl-ttf2.0-dev libsdl1.2-dev libsmpeg-dev subversion libportmidi-dev ffmpeg libswscale-dev libavformat-dev libavcodec-dev libssl-dev openssl libffi-dev
+    python3 -m pip install --upgrade pip
+    apt install bluetooth blueman bluez python3-bluetooth libbluetooth-dev libreadline-gplv2-dev libncursesw5-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev fonts-unfonts-core 
+    pip3 install pybluez pybleno
+    apt install pulseaudio pavucontrol vim
+    apt install omxplayer
+    apt install libsdl2-mixer-2.0-0
+    apt-get clean
+
+
+3. 깃허브에서 프로젝트 파일 다운로드 및 시스템 환경변수 등록
+     cd /home/pi
+     git clone https://github.com/HermesProj-KNUT/Hermes_Hub
+     mv Hermes_Hub/ Hub
+     chmod 777 -R Hub/
+     nano ~/.bashrc
+     맨하단에 export GOOGLE_APPLICATION_CREDENTIALS="/home/pi/Hub/input_your_json"
+     source ~/.bashrc
+
+
+4. 필요한 파이썬 라이브러리 설치
+     python3 -m pip install --upgrade google-cloud pyaudio mutagen google pygame PyQt-builder PyQt5-sip
+     python3 -m pip install google-cloud-speech==1.3.2
+     pip3 install "google-cloud-texttospeech<2.0.0"
+     apt install portaudio19-dev pulseaudio python3-pyqt5
+
+
+5. LCD 세팅 및 키보드 설치
+     apt install matchbox-keyboard
+     git clone https://github.com/goodtft/LCD-show.git
+     cd LCD-show/
+     chmod +x LCD5-show
+     sudo ./LCD5-show
+
+
+6. 파이썬 자동실행
+     su 로그인 안한 상태에서 
+     python3 -m pip install google-cloud-speech==1.3.2
+     sudo nano /etc/xdg/lxsession/LXDE-pi/autostart
+     @xscreensaver 바로위에 아래와 같이 작성
+lxterminal -e sudo bash /home/pi/Hub/shell/reboot_wifi.sh
+lxterminal -e python3 /home/pi/Hub/New_Translate.py
+
+
+7.  와이파이 끊김 방지
+      sudo iw dev wlan0 set power_save off
+      sudo wpa_supplicant -c/etc/wpa_supplicant/wpa_supplicant.conf -iwlan0 -d
+      wpa_supplicant -c/etc/wpa_supplicant/wpa_supplicant.conf -iwlan0 -d
+
+
+8. 블루투스 세팅
+    sudo sdptool add SP
+    sudo nano /lib/systemd/system/bluetooth.service
+    ExecStart=/usr/lib/bluetooth/bluetoothd -C 로 수정
+    sudo systemctl daemon-reload       <설정 수정사항 재로딩>
+    sudo systemctl restart bluetooth    <블루투스 서비스 재실행>
+    sudo systemctl enable bluetooth   <재부팅시 서비스 자동 등록>
+    sudo usermod -a -G bluetooth pi <사용자를 블루투스 그룹에 추가>
+    sudo chgrp bluetooth /var/run/sdp 
+    sudo nano /etc/systemd/system/var-run-sdp.path
+[Unit]
+Descrption=Monitor /var/run/sdp
+
+[Install]
+WantedBy=bluetooth.service
+
+[Path]
+PathExists=/var/run/sdp
+Unit=var-run-sdp.service
+
+     sudo nano /etc/systemd/system/var-run-sdp.service
+[Unit]
+Description=Set permission of /var/run/sdp
+
+[Install]
+RequiredBy=var-run-sdp.path
+
+[Service]
+Type=simple
+ExecStart=/bin/chgrp bluetooth /var/run/sdp
+
+     sudo systemctl daemon-reload
+     sudo systemctl enable var-run-sdp.path
+     sudo systemctl enable var-run-sdp.service
+     sudo systemctl start var-run-sdp.path
+
+
+9. USB 마이크 기본 마이크 설정
+aplay -l
+arecord -l 
+=> 해당 장치의 card 번호와 device번호 확인
+sudo nano /usr/share/alsa/alsa.conf
+page down 4번 후 아래와 같이 수정
+defaults.ctl.card 1
+defaults.pcm.card 1
+수정후 
+sudo nano .asoundrc
+pcm.!default {
+  type asym
+  capture.pcm "mic"
+  playback.pcm "speaker"
+}
+
+pcm.mic {
+  type plug
+  slave {
+    pcm "hw:2,0"
+  }
+}
+
+pcm.speaker {
+  type plug
+  slave {
+    pcm "hw:1,0"
+  }
+}
+
+
+
+※ 블루투스 이어폰 (non su)
+     sudo apt-get install pulseaudio pulseaudio-module-bluetooth pavucontrol
+     pavucontrol
+     sudo apt-get install blueman pi-bluetooth
+     pulseaudio --start
+     bluetoothctl
+     scan on
+     connect 00:1B:C3:08:F7:0D
+     sudo nano /etc/rc.local
+     맨 아래에 echo "connect 00:1B:C3:08:F7:0D \n quit" | bluetoothctl
+
+
+※ mp3 관련 권한 오류시 해야할 명령어
+     sudo -i
+ 
+
+※ pipy 카카오 미러 서버 변경 (etc/pip.conf)
+[global]
+index-url=http://ftp.daumkakao.com/pypi/simple
+trusted-host=ftp.daumkakao.com
+
+
+※ 라즈베리파이 라이브러리 검색
+sudo apt search 검색어
+

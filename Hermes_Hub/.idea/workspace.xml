@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d39c9880-4667-4adf-b39e-6d4514ec2b9b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1fiXy2smgSWJW7bh4ZkqZJxUcrO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.New_Translate">
+    <configuration name="New_Translate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="here_hub" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/New_Translate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="New_Translate_win" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="here_hub" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/New_Translate_win.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hub_main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="here_hub" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hub_main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_fire" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="here_hub" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_fire.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="teste" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="here_hub" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/teste.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testt" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="here_hub" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testt.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.New_Translate" />
+      <item itemvalue="Python.New_Translate_win" />
+      <item itemvalue="Python.hub_main" />
+      <item itemvalue="Python.test_fire" />
+      <item itemvalue="Python.teste" />
+      <item itemvalue="Python.testt" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.New_Translate" />
+        <item itemvalue="Python.testt" />
+        <item itemvalue="Python.test_fire" />
+        <item itemvalue="Python.New_Translate_win" />
+        <item itemvalue="Python.teste" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d39c9880-4667-4adf-b39e-6d4514ec2b9b" name="Default Changelist" comment="" />
+      <created>1596702138258</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596702138258</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="395" y="91" key="#Inspections" timestamp="1597647926646">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="395" y="91" key="#Inspections/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597647926646" />
+    <state x="491" y="25" key="#Live_translate" timestamp="1596703235070">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="491" y="25" key="#Live_translate/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1596703235070" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604921488658">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1604921488658" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1596773346578" />
+    <state x="491" y="25" key="#stt_linuc" timestamp="1596702262372">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="491" y="25" key="#stt_linuc/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1596702262372" />
+    <state x="491" y="25" key="#testttt" timestamp="1596702630037">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="491" y="25" key="#testttt/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1596702630037" />
+    <state x="491" y="25" key="#tts_linuc" timestamp="1596702182276">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="491" y="25" key="#tts_linuc/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1596702182276" />
+    <state x="548" y="167" key="FileChooserDialogImpl" timestamp="1599759536907">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="167" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1599759536907" />
+    <state x="548" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596773104732" />
+    <state width="1515" height="197" key="GridCell.Tab.0.bottom" timestamp="1605062276403">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="197" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1604942856063" />
+    <state width="1899" height="265" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599217481264" />
+    <state width="1515" height="197" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605062276403" />
+    <state width="1515" height="197" key="GridCell.Tab.0.center" timestamp="1605062276403">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="197" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1604942856063" />
+    <state width="1899" height="265" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599217481264" />
+    <state width="1515" height="197" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605062276403" />
+    <state width="1515" height="197" key="GridCell.Tab.0.left" timestamp="1605062276403">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="197" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1604942856063" />
+    <state width="1899" height="265" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599217481264" />
+    <state width="1515" height="197" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605062276403" />
+    <state width="1515" height="197" key="GridCell.Tab.0.right" timestamp="1605062276403">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="197" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1604942856063" />
+    <state width="1899" height="265" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599217481264" />
+    <state width="1515" height="197" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605062276403" />
+    <state width="1899" height="260" key="GridCell.Tab.1.bottom" timestamp="1598954920224">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1515" height="260" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1598954382092" />
+    <state width="1899" height="260" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598954920224" />
+    <state width="1515" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597833368832" />
+    <state width="1899" height="260" key="GridCell.Tab.1.center" timestamp="1598954920224">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1515" height="260" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1598954382092" />
+    <state width="1899" height="260" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598954920224" />
+    <state width="1515" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1597833368832" />
+    <state width="1899" height="260" key="GridCell.Tab.1.left" timestamp="1598954920224">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1515" height="260" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1598954382092" />
+    <state width="1899" height="260" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598954920224" />
+    <state width="1515" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1597833368832" />
+    <state width="1899" height="260" key="GridCell.Tab.1.right" timestamp="1598954920224">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1515" height="260" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1598954382092" />
+    <state width="1899" height="260" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1598954920224" />
+    <state width="1515" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1597833368832" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1596807017628">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1596807017628" />
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1596773128050" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1597176919626">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1597176919626" />
+    <state x="2161" y="27" width="1305" height="811" maximized="true" key="dock-window-1" timestamp="1605290847383">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2161" y="27" width="1305" height="811" maximized="true" key="dock-window-1/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1605290847383" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1599808711432">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1599808711432" />
+    <state x="2459" y="183" width="840" height="856" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1597878449973" />
+  </component>
+</project>

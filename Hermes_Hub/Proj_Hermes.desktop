@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=Proj_Hermes
+Path=/home/pi/Hub
+Icon=/home/pi/Hub/icon/Hermes_logo.png
+Exec=sh /home/pi/Hub/desktop_sh/run_script.sh
+Terminal=true

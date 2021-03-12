@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>795</width>
+    <height>415</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>791</width>
+     <height>471</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="TTS_lbl">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>30</y>
+      <width>331</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>210 체리블라썸 R</family>
+      <pointsize>16</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="tabletTracking">
+     <bool>false</bool>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+    </property>
+    <property name="indent">
+     <number>0</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="STT_lbl">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>20</y>
+      <width>331</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>210 체리블라썸 R</family>
+      <pointsize>16</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="tabletTracking">
+     <bool>false</bool>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="STT_btn">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>270</y>
+      <width>101</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../icon/mic.png</normaloff>../icon/mic.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>241</width>
+      <height>141</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="TTS_lbl_hide">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>371</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="tabletTracking">
+     <bool>false</bool>
+    </property>
+    <property name="midLineWidth">
+     <number>0</number>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+    <property name="pixmap">
+     <pixmap>../icon/other_talk.png</pixmap>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="indent">
+     <number>0</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="STT_lbl_hide">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>10</y>
+      <width>371</width>
+      <height>291</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="tabletTracking">
+     <bool>false</bool>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../icon/my_talk.png</pixmap>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exit_btn">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>330</y>
+      <width>81</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../icon/exit.png</normaloff>../icon/exit.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>100</width>
+      <height>100</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>330</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>목소리 성별</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>350</y>
+      <width>110</width>
+      <height>55</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QRadioButton" name="gender_male">
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>남성</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="gender_female">
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>여성</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="STT_stop_btn">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>270</y>
+      <width>101</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../icon/mic_stop.png</normaloff>../icon/mic_stop.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>241</width>
+      <height>141</height>
+     </size>
+    </property>
+   </widget>
+   <zorder>layoutWidget</zorder>
+   <zorder>STT_lbl_hide</zorder>
+   <zorder>TTS_lbl_hide</zorder>
+   <zorder>TTS_lbl</zorder>
+   <zorder>STT_lbl</zorder>
+   <zorder>STT_btn</zorder>
+   <zorder>exit_btn</zorder>
+   <zorder>label</zorder>
+   <zorder>STT_stop_btn</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

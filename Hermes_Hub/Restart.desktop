@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=Restart
+Path=/home/pi/Hub
+Icon=/home/pi/Hub/icon/restart.png
+Exec=sh /home/pi/Hub/desktop_sh/restart.sh
+Terminal=true

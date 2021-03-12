@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=Power_off
+Path=/home/pi/Hub
+Icon=/home/pi/Hub/icon/power_off.png
+Exec=sh /home/pi/Hub/desktop_sh/shut_down.sh
+Terminal=true
