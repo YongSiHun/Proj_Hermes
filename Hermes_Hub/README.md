@@ -4,7 +4,7 @@ Proj_Hermes_Hub
 --
 >애플리케이션과 연동하여 실시간 통역
 >
-허브 사진
+헤르메스 허브 화면
 --
 ![image](https://user-images.githubusercontent.com/33280934/114129590-d2938180-9939-11eb-8ffb-f66c25b0d896.png)
 ![image](https://user-images.githubusercontent.com/33280934/114129606-dc1ce980-9939-11eb-9d89-df4d3debf595.png)
