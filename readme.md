@@ -10,6 +10,7 @@ real-time interpretation system for the deaf
 
 **2. 프로젝트 컨셉**
 >![image](https://user-images.githubusercontent.com/33280934/114128781-1dac9500-9938-11eb-9f10-744f37c0e958.png)
+>![image](https://user-images.githubusercontent.com/33280934/114130626-efc94f80-993b-11eb-8c5c-bd41da11402c.png)
 
 
 **3. 서비스 구성도**
