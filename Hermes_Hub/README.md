@@ -2,7 +2,8 @@ Proj_Hermes_Application
 ==
 기능
 --
->애플리케이션과 연동하여 실시간 통역  
+>애플리케이션과 연동하여 실시간 통역
+>
 허브 사진
 --
 ![image](https://user-images.githubusercontent.com/33280934/114129590-d2938180-9939-11eb-8ffb-f66c25b0d896.png)
