@@ -9,10 +9,10 @@ real-time interpretation system for the deaf
 >실시간 통역 및 생활 소리 알림 시스템
 
 **2. 기능흐름도 및 유스케이스**
-![image](https://user-images.githubusercontent.com/33280934/114130822-577f9a80-993c-11eb-9ed0-187eab9574ee.png)
+>![image](https://user-images.githubusercontent.com/33280934/114130822-577f9a80-993c-11eb-9ed0-187eab9574ee.png)
 ![image](https://user-images.githubusercontent.com/33280934/114130887-7d0ca400-993c-11eb-995d-3312f96151db.png)
 ![image](https://user-images.githubusercontent.com/33280934/114130828-5b132180-993c-11eb-873c-fe21c44167f5.png)
-![image](https://user-images.githubusercontent.com/33280934/114130899-81d15800-993c-11eb-9e5c-930546753e30.png)
+>![image](https://user-images.githubusercontent.com/33280934/114130899-81d15800-993c-11eb-9e5c-930546753e30.png)
 
 
 **3. 전체적인 프로젝트 컨셉**
