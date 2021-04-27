@@ -1,6 +1,6 @@
-Hermes_Project
+#Hermes_Project
 =============
-real-time interpretation system for the deaf
+###real-time interpretation system for the deaf
 ----
 
 **1. 프로젝트 개요**
@@ -31,3 +31,24 @@ real-time interpretation system for the deaf
 ----
 >![image](https://user-images.githubusercontent.com/33280934/114128816-34eb8280-9938-11eb-87a7-e39d06587d86.png)
 
+**7. 애플리케이션 기능표**
+----
+>![image](https://user-images.githubusercontent.com/33280934/114130158-ee4b5780-993a-11eb-800d-b10177e79ffd.png)  
+
+**8. 애플리케이션 화면**
+----
+>![image](https://user-images.githubusercontent.com/33280934/114129160-fbffdd80-9938-11eb-892d-93b03a56fffc.png)
+![image](https://user-images.githubusercontent.com/33280934/114129170-00c49180-9939-11eb-9183-c23aa9b3176b.png)  
+![image](https://user-images.githubusercontent.com/33280934/114129175-0326eb80-9939-11eb-89ce-3c2ba692769d.png)
+>![image](https://user-images.githubusercontent.com/33280934/114129183-04f0af00-9939-11eb-8f37-b7d12075ac28.png)
+
+**9. 기능**
+----
+>###애플리케이션과 연동하여 실시간 통역
+
+**10. 헤르메스 허브 화면**
+----
+>![image](https://user-images.githubusercontent.com/33280934/114129590-d2938180-9939-11eb-8ffb-f66c25b0d896.png)
+![image](https://user-images.githubusercontent.com/33280934/114129606-dc1ce980-9939-11eb-9d89-df4d3debf595.png)
+![image](https://user-images.githubusercontent.com/33280934/114129609-df17da00-9939-11eb-8ee1-4c836f3df0cf.png)
+>![image](https://user-images.githubusercontent.com/33280934/114129616-e17a3400-9939-11eb-8100-32a13eff3313.png)
