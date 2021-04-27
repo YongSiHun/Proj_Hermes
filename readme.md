@@ -12,11 +12,19 @@
 <br/>
 <br/>
 
-**2. 기능흐름도 및 유스케이스**
+**2. 실시간 통역 기능흐름도 및 유스케이스**
 ----
 >![image](https://user-images.githubusercontent.com/33280934/114130822-577f9a80-993c-11eb-9ed0-187eab9574ee.png)
-![image](https://user-images.githubusercontent.com/33280934/114130887-7d0ca400-993c-11eb-995d-3312f96151db.png)
-![image](https://user-images.githubusercontent.com/33280934/114130828-5b132180-993c-11eb-873c-fe21c44167f5.png)
+>![image](https://user-images.githubusercontent.com/33280934/114130887-7d0ca400-993c-11eb-995d-3312f96151db.png)
+
+<br/>
+<br/>
+<br/>
+<br/>
+
+**3. 생활 소리 알림 기능흐름도 및 유스케이스**
+----
+>![image](https://user-images.githubusercontent.com/33280934/114130828-5b132180-993c-11eb-873c-fe21c44167f5.png)
 >![image](https://user-images.githubusercontent.com/33280934/114130899-81d15800-993c-11eb-9e5c-930546753e30.png)
 
 <br/>
