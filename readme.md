@@ -32,7 +32,7 @@
 <br/>
 <br/>
 
-**3. 전체적인 프로젝트 컨셉**
+**4. 전체적인 프로젝트 컨셉**
 ----
 >![image](https://user-images.githubusercontent.com/33280934/114128781-1dac9500-9938-11eb-9f10-744f37c0e958.png)
 
@@ -41,7 +41,7 @@
 <br/>
 <br/>
 
-**4. 서비스 구성도**
+**5. 서비스 구성도**
 ----
 >![image](https://user-images.githubusercontent.com/33280934/114128612-b4c51d00-9937-11eb-8bf4-84c0bc379ebe.png)
 
@@ -50,7 +50,7 @@
 <br/>
 <br/>
 
-**5. 애플리케이션 함수 흐름도**
+**6. 애플리케이션 함수 흐름도**
 ----
 >![image](https://user-images.githubusercontent.com/33280934/114128797-2604d000-9938-11eb-910d-f03cb4fa4e11.png)
 
@@ -59,7 +59,7 @@
 <br/>
 <br/>
 
-**6. 허브 함수 흐름도**
+**7. 허브 함수 흐름도**
 ----
 >![image](https://user-images.githubusercontent.com/33280934/114128816-34eb8280-9938-11eb-87a7-e39d06587d86.png)
 
@@ -68,7 +68,7 @@
 <br/>
 <br/>
 
-**7. 애플리케이션 기능표**
+**8. 애플리케이션 기능표**
 ----
 >![image](https://user-images.githubusercontent.com/33280934/114130158-ee4b5780-993a-11eb-800d-b10177e79ffd.png)  
 
@@ -77,7 +77,7 @@
 <br/>
 <br/>
 
-**8. 애플리케이션 화면**
+**9. 애플리케이션 화면**
 ----
 >![image](https://user-images.githubusercontent.com/33280934/114129160-fbffdd80-9938-11eb-892d-93b03a56fffc.png)
 ![image](https://user-images.githubusercontent.com/33280934/114129170-00c49180-9939-11eb-9183-c23aa9b3176b.png)  
@@ -89,7 +89,7 @@
 <br/>
 <br/>
 
-**9. 헤르메스 허브 기능**
+**10. 헤르메스 허브 기능**
 ----
 >### 애플리케이션과 연동하여 실시간 통역
 
@@ -98,7 +98,7 @@
 <br/>
 <br/>
 
-**10. 헤르메스 허브 화면**
+**11. 헤르메스 허브 화면**
 ----
 >![image](https://user-images.githubusercontent.com/33280934/114129590-d2938180-9939-11eb-8ffb-f66c25b0d896.png)
 ![image](https://user-images.githubusercontent.com/33280934/114129606-dc1ce980-9939-11eb-9d89-df4d3debf595.png)
