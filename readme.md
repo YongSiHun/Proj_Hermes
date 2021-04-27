@@ -1,6 +1,6 @@
-#Hermes_Project
+# **Hermes_Project**
 =============
-###real-time interpretation system for the deaf
+### **real-time interpretation system for the deaf**
 ----
 
 **1. 프로젝트 개요**
@@ -44,7 +44,7 @@
 
 **9. 기능**
 ----
->###애플리케이션과 연동하여 실시간 통역
+>### 애플리케이션과 연동하여 실시간 통역
 
 **10. 헤르메스 허브 화면**
 ----
