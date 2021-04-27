@@ -1,5 +1,4 @@
 # **Hermes_Project**
-=============
 ### **real-time interpretation system for the deaf**
 ----
 
@@ -42,7 +41,7 @@
 ![image](https://user-images.githubusercontent.com/33280934/114129175-0326eb80-9939-11eb-89ce-3c2ba692769d.png)
 >![image](https://user-images.githubusercontent.com/33280934/114129183-04f0af00-9939-11eb-8f37-b7d12075ac28.png)
 
-**9. 기능**
+**9. 헤르메스 허브 기능**
 ----
 >### 애플리케이션과 연동하여 실시간 통역
 
